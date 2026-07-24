@@ -1,0 +1,61 @@
+{
+  "hourly_rate": 10000,
+  "users": {
+    "rootadmin": {
+      "salt": "ddd11950e8350cf0b131c917416be07f",
+      "hashed": "dee03ea3ef6cedd6042e199acee70aca40e795e596ce52dfaa2d809966f1409f",
+      "role": "root",
+      "status": "active"
+    },
+    "admin": {
+      "salt": "9fea3db466da3bcee2ee7103a019060c",
+      "hashed": "60f8bab6e38d4290fbb13f91c74a68c7868162b7468d677f6d723911b6b87df2",
+      "role": "admin",
+      "status": "active"
+    },
+    "attendant": {
+      "salt": "ad3f351c4717d1a43ce81c6b7067bb69",
+      "hashed": "ce65606580d9a009515e9098038ab39b5adde7f5f3945a45da6f699f6276772f",
+      "role": "attendant",
+      "status": "active"
+    },
+    "owner": {
+      "salt": "e86c9fe3807ba1aed3a3cd0c9790ed84",
+      "hashed": "e72e4af941ed02bb8e8359039df441781f21f535f296aa5b65fe038abd9a7bc4",
+      "role": "owner",
+      "status": "active"
+    },
+    "khanh": {
+      "salt": "96038fe2b822aaec33797c731fd3db07",
+      "hashed": "78052beb8704ba9ed0191feee1d4a8b252768c55bf464c50bd155c80ed3048a0",
+      "role": "owner",
+      "status": "active"
+    }
+  },
+  "slots": [
+    {
+      "slot_id": "1",
+      "is_available": true,
+      "plate": null,
+      "check_in": null,
+      "reserved_for": null
+    },
+    {
+      "slot_id": "2",
+      "is_available": true,
+      "plate": null,
+      "check_in": null,
+      "reserved_for": null
+    },
+    {
+      "slot_id": "3",
+      "is_available": true,
+      "plate": null,
+      "check_in": null,
+      "reserved_for": null
+    }
+  ],
+  "vehicles": [],
+  "transactions": [],
+  "occupancy_log": []
+}

@@ -418,7 +418,12 @@ class ParkingLot:
 
     # ---------- Slot và thanh toán ----------
     def available_slots(self):
-        return [s.slot_id for s in self.slots.values() if s.is_available and not s.reserved_for]
+        """Trả về danh sách trạng thái của tất cả slot."""
+        result = []
+        for s in self.slots.values():
+            status = "Còn chỗ" if (s.is_available and not s.reserved_for) else "Đã đầy"
+            result.append(f"{s.slot_id} - {status}")
+        return result
 
     def _unpaid_transactions(self, plate):
         return [t for t in self.transactions if t.plate == plate and not t.paid]
